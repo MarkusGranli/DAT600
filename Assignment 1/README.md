@@ -1,6 +1,6 @@
 # DAT600 Assignment 1: Sorting Algorithms and Running Time Analysis
 
-This repository contains implementations and experiments for Assignment 1 in DAT600 Algorithm Theory (Spring 2026).
+This repository contains implementations and experiments for Assignment 1 in DAT600 Algorithm Theory.
 
 ## Assignment Overview
 
@@ -96,19 +96,6 @@ Key findings from the experiments:
 2. Quicksort performs well on random data but degrades on sorted/reverse-sorted data
 3. Step counts closely match theoretical predictions
 
-## Usage in LaTeX Reports
-
-The generated PNG files can be included in your LaTeX document:
-
-```latex
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{step_counts_random.png}
-    \caption{Step count comparison for sorting algorithms on random arrays}
-    \label{fig:step_counts}
-\end{figure}
-```
-
 ## Task 2: Multi-Language Comparison
 
 ### Go Implementation
@@ -119,12 +106,6 @@ The Go implementation provides the same sorting algorithms for performance compa
 - `sorting_algorithms.go` - All 4 sorting algorithms
 - `main.go` - Timing experiments and JSON export
 - `go.mod` - Go module file
-
-### Installing Go
-
-1. Download Go from [https://go.dev/dl/](https://go.dev/dl/)
-2. Install for Windows (use the MSI installer)
-3. Verify installation: `go version`
 
 ### Running Go Experiments
 
@@ -157,18 +138,3 @@ This generates:
 - Compiled languages (Go) have less overhead than interpreted languages (Python)
 - The performance gap is larger for simple operations (like insertion sort)
 - Both languages show the same asymptotic complexity patterns
-
-## Code Quality
-
-- **Documentation**: All functions include docstrings
-- **Testing**: Simple test cases included in main blocks
-- **Reproducibility**: Random seed can be set for consistent results
-- **Academic Integrity**: Original implementation following assignment guidelines
-
-## Author
-
-Markus - DAT600 Spring 2026
-
-## License
-
-This code is submitted as part of academic coursework. Please respect academic integrity policies.

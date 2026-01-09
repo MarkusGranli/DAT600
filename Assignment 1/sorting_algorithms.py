@@ -42,7 +42,7 @@ def merge_sort(arr):
     Returns: (sorted_array, step_count)
     """
     arr = arr.copy()
-    steps = [0]  # Use list to maintain reference in recursive calls
+    steps = [0]
     
     def merge(arr, left, mid, right):
         # Create temp arrays

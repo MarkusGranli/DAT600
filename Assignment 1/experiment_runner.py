@@ -166,7 +166,6 @@ def plot_step_counts(results, array_type='random', save_path='step_counts.png'):
 def plot_timing_results(results, array_type='random', save_path='execution_times.png'):
     """
     Plot execution times for all algorithms.
-    Creates publication-quality plot for LaTeX.
     """
     plt.figure(figsize=(10, 6))
     
